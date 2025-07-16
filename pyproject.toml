@@ -1,0 +1,30 @@
+[project]
+name = "neurohub"
+version = "0.1.0"
+description = "AI-powered assistant for neurodivergent users"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi==0.104.1",
+    "uvicorn==0.24.0",
+    "sqlalchemy>=2.0.25",
+    "openai-whisper",
+    "langchain==0.0.350",
+    "pyvis==0.3.2",
+    "opencv-python==4.8.1.78",
+    "pytesseract==0.3.10",
+    "gtts==2.4.0",
+    "pyttsx3==2.90",
+
+    "croniter==2.0.1",
+    "python-multipart==0.0.6",
+    "websockets==12.0",
+    "streamlit==1.28.1",
+    "requests==2.31.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend", "voice", "planner", "coach", "mindmap", "ar_reader", "lang_learning", "frontend"]
