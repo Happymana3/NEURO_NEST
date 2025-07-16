@@ -1,39 +1,39 @@
-# 🧠 NeuroHub AI Assistant
+#  NeuroHub AI Assistant
 
 An AI-powered assistant supporting neurodivergent users (Dyslexia, ADHD, etc.) through multimodal interaction using Gemma 3n as the foundation model.
 
-## 🚀 Features
+##  Features
 
-### 🎤 Voice Journaling → Mind Maps
+###  Voice Journaling → Mind Maps
 - Voice-to-text transcription using Whisper
 - Automatic topic extraction
 - Interactive mind map generation
 - Mood detection and tracking
 
-### 📅 Focus-Friendly Planner
+### Focus-Friendly Planner
 - Natural language task parsing
 - Smart scheduling with datetime extraction
 - SQLite storage for persistence
 - Simple task management
 
-### ❤️ Emotional Coach
+### Emotional Coach
 - Emotion detection from text
 - Personalized coping suggestions
 - Mood history tracking
 - Mental health support
 
-### 📷 AR Reading Assist
+###  AR Reading Assist
 - OCR text extraction from images
 - Text simplification for readability
 - Text-to-speech conversion
 - Dyslexia-friendly processing
 
-### 🎮 Language Learning (Planned)
+### Language Learning (Planned)
 - Flashcard system with spaced repetition
 - Gamified learning experiences
 - Adaptive difficulty
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 **Backend:**
 - FastAPI for REST API
@@ -50,7 +50,7 @@ An AI-powered assistant supporting neurodivergent users (Dyslexia, ADHD, etc.) t
 - Docker + Docker Compose
 - Python 3.9
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -90,7 +90,7 @@ docker-compose up --build
 - Frontend UI: http://localhost:8501
 - API Documentation: http://localhost:8000/docs
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 neurohub/
@@ -145,7 +145,7 @@ neurohub/
 ### Mind Maps
 - `POST /mindmap/generate` - Generate interactive mind map
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### Voice Journaling
 1. Upload an audio file through the frontend
@@ -164,7 +164,7 @@ Input: "I'm feeling really anxious about my presentation"
 Output: Emotion detection + coping suggestions
 ```
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Integration with Gemma 3n for advanced NLP
 - React frontend with better UX
@@ -174,10 +174,10 @@ Output: Emotion detection + coping suggestions
 - Multi-language support
 - Voice-controlled interface
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
